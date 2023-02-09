@@ -32,5 +32,54 @@ namespace AM.ApplicationCore.Services
             }
             return dates;
         }
+        public void GetFlights(string filterType, string filterValue)
+        {
+            List<Flight> list = new List<Flight>();
+            switch (filterType)
+            {
+                case "Destination":
+                    var filteredFlights = Flights.Where(f => f.Destination == filterValue);
+                    DisplayFlights(filteredFlights);
+                    break;
+
+                case "Plane":
+                    filteredFlights = Flights.Where(f => f.Plane = filterValue);
+                    DisplayFlights(filteredFlights);
+                    break;
+
+                case "EffectiveArrival":
+                    filteredFlights = Flights.Where(f => f.EffectiveArrival = filterValue);
+                    DisplayFlights(filteredFlights);
+                    break;
+
+                case "EstimationDuration":
+                    filteredFlights = Flights.Where(f => f.EstimationDuration = filterValue);
+                    DisplayFlights(filteredFlights);
+                    break;
+
+                case "FlightDate":
+                    filteredFlights = Flights.Where(f => f.FlightDate = filterValue);
+                    DisplayFlights(filteredFlights);
+                    break;
+
+                default:
+                    Console.WriteLine("Invalid filter type");
+                    break;
+            }
+        }
+        private void DisplayFlights(IEnumerable<Flight> flights)
+        {
+            foreach (var flight in flights)
+            {
+                Console.WriteLine("EffectiveArrival: " + flight.EffectiveArrival);
+                Console.WriteLine("Plane: " + flight.Plane);
+                Console.WriteLine("Destination: " + flight.Destination);
+                Console.WriteLine("EstimationDuration: " + flight.EstimationDuration);
+                Console.WriteLine("FlightDate: " + flight.FlightDate);
+                Console.WriteLine();
+            }
+        }
+
     }
 }
+
