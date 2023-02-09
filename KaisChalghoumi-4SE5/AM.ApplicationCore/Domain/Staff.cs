@@ -20,7 +20,7 @@ namespace AM.ApplicationCore.Domain
         public override void PassengerType()
         {
             base.PassengerType();
-            Console.WriteLine("I'm Staff");
+            Console.WriteLine("I am a passenger I am a Staff Member");
         }
     }
 }
