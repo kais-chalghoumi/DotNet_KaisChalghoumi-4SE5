@@ -29,5 +29,9 @@ namespace AM.Infrastructure
         {
             modelBuilder.ApplyConfiguration(new FlightConfiguration());
         }
+        protected override void ConfigureConventions(ModelConfigurationBuilder configurationBuilder)
+        {
+            configurationBuilder.Properties<String>().HaveMaxLength(120);
+        }
     }
 }

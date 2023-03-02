@@ -21,6 +21,8 @@ namespace AM.Infrastructure.Configurations
                 .HasColumnName("ville de depart")
                 .HasDefaultValue("TUN")
                 .HasColumnType("nchar");
+            builder.HasOne(f => f.plane).WithMany(p => p.flights).HasForeignKey(f=>f.PlaneFK).OnDelete(DeleteBehavior.SetNull);
+            builder.HasMany(p => p.passengers).WithMany(f => f.flights).UsingEntity(p => p.ToTable("My Reservation"));
         }
     }
 }

@@ -16,10 +16,10 @@ namespace AM.ApplicationCore.Domain
         public DateTime effectiveArrival { get; set; }
         public int estimatedDuration { get; set; }
         public List<Passenger> passengers { get; set; }
-        public Plane plane { get; set; } //propritete de navigation (relation) !!!
+        public Plane? plane { get; set; } //propritete de navigation (relation) !!!
 
         [ForeignKey(nameof(plane))]
-        public int PlaneFK { get; set; }
+        public int? PlaneFK { get; set; }
 
         public override string ToString()
         {
