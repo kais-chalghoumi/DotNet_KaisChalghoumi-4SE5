@@ -110,7 +110,7 @@ namespace AM.ApplicationCore.Domain
 
         public static List<Flight> flights { get; set; } = new List<Flight>()
         {
-            new Flight() 
+            new Flight()
             {
                 flightDate=new DateTime(2022, 01, 01, 15, 10, 10),
                 destination="Paris",

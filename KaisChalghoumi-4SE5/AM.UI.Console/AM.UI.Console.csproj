@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AM.ApplicationCore\AM.ApplicationCore.csproj" />
+    <ProjectReference Include="..\AM.Infrastructure\AM.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

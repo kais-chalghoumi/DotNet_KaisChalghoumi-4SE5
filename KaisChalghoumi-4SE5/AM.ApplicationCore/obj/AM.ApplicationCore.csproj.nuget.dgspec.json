@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET-Achref-Zitoun-main\\ZitounAchref\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {}
+    "C:\\Users\\chalg\\OneDrive\\Documents\\1_ESPRIT 4SE5 SEMETRE 2\\DotNet\\DotNet_KaisChalghoumi-4SE5\\KaisChalghoumi-4SE5\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET-Achref-Zitoun-main\\ZitounAchref\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
+    "C:\\Users\\chalg\\OneDrive\\Documents\\1_ESPRIT 4SE5 SEMETRE 2\\DotNet\\DotNet_KaisChalghoumi-4SE5\\KaisChalghoumi-4SE5\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET-Achref-Zitoun-main\\ZitounAchref\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\chalg\\OneDrive\\Documents\\1_ESPRIT 4SE5 SEMETRE 2\\DotNet\\DotNet_KaisChalghoumi-4SE5\\KaisChalghoumi-4SE5\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
         "projectName": "AM.ApplicationCore",
-        "projectPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET-Achref-Zitoun-main\\ZitounAchref\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+        "projectPath": "C:\\Users\\chalg\\OneDrive\\Documents\\1_ESPRIT 4SE5 SEMETRE 2\\DotNet\\DotNet_KaisChalghoumi-4SE5\\KaisChalghoumi-4SE5\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\chalg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET-Achref-Zitoun-main\\ZitounAchref\\AM.ApplicationCore\\obj\\",
+        "outputPath": "C:\\Users\\chalg\\OneDrive\\Documents\\1_ESPRIT 4SE5 SEMETRE 2\\DotNet\\DotNet_KaisChalghoumi-4SE5\\KaisChalghoumi-4SE5\\AM.ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chalg\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,26 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

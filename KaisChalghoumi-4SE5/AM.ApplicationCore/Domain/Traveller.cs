@@ -18,7 +18,7 @@ namespace AM.ApplicationCore.Domain
 
         public override void PassengerType()
         {
-            base.PassengerType();  
+            base.PassengerType();
             Console.WriteLine("I am passenger I am a traveller");
         }
     }
