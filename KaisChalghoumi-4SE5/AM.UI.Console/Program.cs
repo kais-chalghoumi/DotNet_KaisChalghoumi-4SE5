@@ -3,7 +3,7 @@ using AM.ApplicationCore.Interfaces;
 using AM.ApplicationCore.Services;
 using System.Collections;
 using System.Collections.Generic;
-using static AM.ApplicationCore.Services.ServiceFlight;
+
 
 
 // 7-
@@ -42,8 +42,7 @@ Plane plane = new Plane();
 //TP2 
 //5
 
-ServiceFlight serviceFlight = new ServiceFlight();
-serviceFlight.Flights = TestData.flights;
+
 
 /*
 serviceFlight.GetFlights("Paris",delegate(Flight f, String c)
