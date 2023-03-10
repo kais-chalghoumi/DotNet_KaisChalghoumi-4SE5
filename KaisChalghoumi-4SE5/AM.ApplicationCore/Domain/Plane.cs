@@ -9,10 +9,10 @@ namespace AM.ApplicationCore.Domain
 {
     public class Plane
     {
-        [Range(0, int.MaxValue)]
+        [Range(0,int.MaxValue)]
         public int capacity { get; set; }
         public int planeId { get; set; }
-        public PlaneType planeType { get; set; }
+        public PlaneType planeType { get; set;}
         public DateTime manufactureDate { get; set; }
         public ICollection<Flight> flights { get; set; }
 

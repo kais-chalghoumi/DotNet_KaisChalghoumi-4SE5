@@ -3,7 +3,7 @@ using AM.ApplicationCore.Interfaces;
 using AM.ApplicationCore.Services;
 using System.Collections;
 using System.Collections.Generic;
-
+using static AM.ApplicationCore.Services.ServiceFlight;
 
 
 // 7-
@@ -42,7 +42,8 @@ Plane plane = new Plane();
 //TP2 
 //5
 
-
+ServiceFlight serviceFlight = new ServiceFlight();
+//serviceFlight.Flights = TestData.flights;
 
 /*
 serviceFlight.GetFlights("Paris",delegate(Flight f, String c)
@@ -57,7 +58,7 @@ serviceFlight.GetFlights("2023/01/01", (Flight f, String c) =>
 */
 
 // Question 20 En Passenger Extension
-Passenger p = new Staff();
-p = TestData.staff[1];
-p.UpperFullName();
-Console.WriteLine(p.firstName + " " + p.lastName);
+//Passenger p = new Staff();
+//p = TestData.staff[1];
+//p.UpperFullName();
+//Console.WriteLine(p.firstName + " " + p.lastName);

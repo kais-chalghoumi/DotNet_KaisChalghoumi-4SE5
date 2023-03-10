@@ -22,17 +22,3 @@ D:\4eme_sem_2\.NET\ZitounAchref\AM.ApplicationCore\obj\Debug\net6.0\AM.Applicati
 D:\4eme_sem_2\.NET\ZitounAchref\AM.ApplicationCore\obj\Debug\net6.0\refint\AM.ApplicationCore.dll
 D:\4eme_sem_2\.NET\ZitounAchref\AM.ApplicationCore\obj\Debug\net6.0\AM.ApplicationCore.pdb
 D:\4eme_sem_2\.NET\ZitounAchref\AM.ApplicationCore\obj\Debug\net6.0\ref\AM.ApplicationCore.dll
-C:\Users\chalg\OneDrive\Documents\1_ESPRIT 4SE5 SEMETRE 2\DotNet\DotNet_KaisChalghoumi-4SE5\KaisChalghoumi-4SE5\AM.ApplicationCore\obj\Debug\net6.0\AM.ApplicationCore.csproj.AssemblyReference.cache
-C:\Users\chalg\OneDrive\Documents\1_ESPRIT 4SE5 SEMETRE 2\DotNet\DotNet_KaisChalghoumi-4SE5\KaisChalghoumi-4SE5\AM.ApplicationCore\obj\Debug\net6.0\AM.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\chalg\OneDrive\Documents\1_ESPRIT 4SE5 SEMETRE 2\DotNet\DotNet_KaisChalghoumi-4SE5\KaisChalghoumi-4SE5\AM.ApplicationCore\obj\Debug\net6.0\AM.ApplicationCore.AssemblyInfoInputs.cache
-C:\Users\chalg\OneDrive\Documents\1_ESPRIT 4SE5 SEMETRE 2\DotNet\DotNet_KaisChalghoumi-4SE5\KaisChalghoumi-4SE5\AM.ApplicationCore\obj\Debug\net6.0\AM.ApplicationCore.AssemblyInfo.cs
-C:\Users\chalg\OneDrive\Documents\1_ESPRIT 4SE5 SEMETRE 2\DotNet\DotNet_KaisChalghoumi-4SE5\KaisChalghoumi-4SE5\AM.ApplicationCore\obj\Debug\net6.0\AM.ApplicationCore.csproj.CoreCompileInputs.cache
-C:\Users\chalg\OneDrive\Documents\1_ESPRIT 4SE5 SEMETRE 2\DotNet\DotNet_KaisChalghoumi-4SE5\KaisChalghoumi-4SE5\AM.ApplicationCore\obj\Debug\net6.0\AM.ApplicationCore.dll
-C:\Users\chalg\OneDrive\Documents\1_ESPRIT 4SE5 SEMETRE 2\DotNet\DotNet_KaisChalghoumi-4SE5\KaisChalghoumi-4SE5\AM.ApplicationCore\obj\Debug\net6.0\refint\AM.ApplicationCore.dll
-C:\Users\chalg\OneDrive\Documents\1_ESPRIT 4SE5 SEMETRE 2\DotNet\DotNet_KaisChalghoumi-4SE5\KaisChalghoumi-4SE5\AM.ApplicationCore\obj\Debug\net6.0\AM.ApplicationCore.pdb
-C:\Users\chalg\OneDrive\Documents\1_ESPRIT 4SE5 SEMETRE 2\DotNet\DotNet_KaisChalghoumi-4SE5\KaisChalghoumi-4SE5\AM.ApplicationCore\bin\Debug\net6.0\AM.ApplicationCore.deps.json
-C:\Users\chalg\OneDrive\Documents\1_ESPRIT 4SE5 SEMETRE 2\DotNet\DotNet_KaisChalghoumi-4SE5\KaisChalghoumi-4SE5\AM.ApplicationCore\bin\Debug\net6.0\AM.ApplicationCore.runtimeconfig.json
-C:\Users\chalg\OneDrive\Documents\1_ESPRIT 4SE5 SEMETRE 2\DotNet\DotNet_KaisChalghoumi-4SE5\KaisChalghoumi-4SE5\AM.ApplicationCore\bin\Debug\net6.0\AM.ApplicationCore.dll
-C:\Users\chalg\OneDrive\Documents\1_ESPRIT 4SE5 SEMETRE 2\DotNet\DotNet_KaisChalghoumi-4SE5\KaisChalghoumi-4SE5\AM.ApplicationCore\bin\Debug\net6.0\AM.ApplicationCore.pdb
-C:\Users\chalg\OneDrive\Documents\1_ESPRIT 4SE5 SEMETRE 2\DotNet\DotNet_KaisChalghoumi-4SE5\KaisChalghoumi-4SE5\AM.ApplicationCore\obj\Debug\net6.0\AM.ApplicationCore.genruntimeconfig.cache
-C:\Users\chalg\OneDrive\Documents\1_ESPRIT 4SE5 SEMETRE 2\DotNet\DotNet_KaisChalghoumi-4SE5\KaisChalghoumi-4SE5\AM.ApplicationCore\obj\Debug\net6.0\ref\AM.ApplicationCore.dll

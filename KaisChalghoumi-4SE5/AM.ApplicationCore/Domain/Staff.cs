@@ -9,8 +9,9 @@ namespace AM.ApplicationCore.Domain
 {
     public class Staff : Passenger
     {
-        public DateTime employementDate { get; set; }
+        public DateTime employementDate{ get; set; }
         public string function { get; set; }
+
         [DataType(DataType.Currency)]
         public float salary { get; set; }
 

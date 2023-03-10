@@ -1148,8 +1148,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "7.0.3",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3"
+          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.3"
         },
         "compile": {
           "bin/placeholder/AM.ApplicationCore.dll": {}
@@ -1162,7 +1161,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "AM.ApplicationCore": "1.0.0"
+          "AM.ApplicationCore": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3"
         },
         "compile": {
           "bin/placeholder/AM.Infrastructure.dll": {}
@@ -3510,19 +3511,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\chalg\\.nuget\\packages\\": {}
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chalg\\OneDrive\\Documents\\1_ESPRIT 4SE5 SEMETRE 2\\DotNet\\DotNet_KaisChalghoumi-4SE5\\KaisChalghoumi-4SE5\\AM.UI.Console\\AM.UI.Console.csproj",
+      "projectUniqueName": "D:\\4eme_sem_2\\.NET\\ZitounAchref\\AM.UI.Console\\AM.UI.Console.csproj",
       "projectName": "AM.UI.Console",
-      "projectPath": "C:\\Users\\chalg\\OneDrive\\Documents\\1_ESPRIT 4SE5 SEMETRE 2\\DotNet\\DotNet_KaisChalghoumi-4SE5\\KaisChalghoumi-4SE5\\AM.UI.Console\\AM.UI.Console.csproj",
-      "packagesPath": "C:\\Users\\chalg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chalg\\OneDrive\\Documents\\1_ESPRIT 4SE5 SEMETRE 2\\DotNet\\DotNet_KaisChalghoumi-4SE5\\KaisChalghoumi-4SE5\\AM.UI.Console\\obj\\",
+      "projectPath": "D:\\4eme_sem_2\\.NET\\ZitounAchref\\AM.UI.Console\\AM.UI.Console.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "D:\\4eme_sem_2\\.NET\\ZitounAchref\\AM.UI.Console\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\chalg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3536,11 +3537,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\chalg\\OneDrive\\Documents\\1_ESPRIT 4SE5 SEMETRE 2\\DotNet\\DotNet_KaisChalghoumi-4SE5\\KaisChalghoumi-4SE5\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
-              "projectPath": "C:\\Users\\chalg\\OneDrive\\Documents\\1_ESPRIT 4SE5 SEMETRE 2\\DotNet\\DotNet_KaisChalghoumi-4SE5\\KaisChalghoumi-4SE5\\AM.ApplicationCore\\AM.ApplicationCore.csproj"
+            "D:\\4eme_sem_2\\.NET\\ZitounAchref\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
+              "projectPath": "D:\\4eme_sem_2\\.NET\\ZitounAchref\\AM.ApplicationCore\\AM.ApplicationCore.csproj"
             },
-            "C:\\Users\\chalg\\OneDrive\\Documents\\1_ESPRIT 4SE5 SEMETRE 2\\DotNet\\DotNet_KaisChalghoumi-4SE5\\KaisChalghoumi-4SE5\\AM.Infrastructure\\AM.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\chalg\\OneDrive\\Documents\\1_ESPRIT 4SE5 SEMETRE 2\\DotNet\\DotNet_KaisChalghoumi-4SE5\\KaisChalghoumi-4SE5\\AM.Infrastructure\\AM.Infrastructure.csproj"
+            "D:\\4eme_sem_2\\.NET\\ZitounAchref\\AM.Infrastructure\\AM.Infrastructure.csproj": {
+              "projectPath": "D:\\4eme_sem_2\\.NET\\ZitounAchref\\AM.Infrastructure\\AM.Infrastructure.csproj"
             }
           }
         }
@@ -3578,7 +3579,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

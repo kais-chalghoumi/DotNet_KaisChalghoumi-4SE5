@@ -696,8 +696,7 @@
       },
       "AM.ApplicationCore/1.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "7.0.3",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3"
+          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.3"
         },
         "runtime": {
           "AM.ApplicationCore.dll": {}
@@ -705,7 +704,9 @@
       },
       "AM.Infrastructure/1.0.0": {
         "dependencies": {
-          "AM.ApplicationCore": "1.0.0"
+          "AM.ApplicationCore": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3"
         },
         "runtime": {
           "AM.Infrastructure.dll": {}
